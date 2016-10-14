@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:fbpmodel="http://www.example.org/fbpmodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_vZoU0IiiEea3QIGX1OCqQg" selectedViews="_04yFIIiiEea3QIGX1OCqQg" version="11.1.0.201608251200">
+    <semanticResources>types.fbpmodel</semanticResources>
+    <semanticResources>conf.fbpmodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_04yFIIiiEea3QIGX1OCqQg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_JlTP4IlFEeahI8aZx87GvA" name="new library" representation="_JlTP4YlFEeahI8aZx87GvA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']"/>
+        <target xmi:type="fbpmodel:Library" href="My.fbpmodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_3mzioIlHEeahI8aZx87GvA" name="new configuration" representation="_3mzioYlHEeahI8aZx87GvA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+        <target xmi:type="fbpmodel:Configuration" href="instance.fbpmodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_d-gEAIlNEea2HP2PosNoiA" name="new configuration" representation="_d-grEIlNEea2HP2PosNoiA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+        <target xmi:type="fbpmodel:Configuration" href="My1.fbpmodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_C-cowIuXEeaGxLrgKRL_Kg" name="conf1" representation="_C-dP0IuXEeaGxLrgKRL_Kg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+        <target xmi:type="fbpmodel:Configuration" href="conf.fbpmodel#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_Ia0K0IuXEeaGxLrgKRL_Kg" name="library1" representation="_Ia0K0YuXEeaGxLrgKRL_Kg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']"/>
+        <target xmi:type="fbpmodel:Library" href="types.fbpmodel#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_JlTP4YlFEeahI8aZx87GvA" name="new library">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_JlTP4olFEeahI8aZx87GvA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_JlTP44lFEeahI8aZx87GvA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_JlT28IlFEeahI8aZx87GvA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_JlT28YlFEeahI8aZx87GvA" type="Sirius" element="_JlTP4YlFEeahI8aZx87GvA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_JlUeAIlFEeahI8aZx87GvA" type="2003" element="_upsIkIlFEeahI8aZx87GvA">
+          <children xmi:type="notation:Node" xmi:id="_de4zAIlREeaAgNxxrX8c3Q" type="3012" element="_deysYIlREeaAgNxxrX8c3Q">
+            <children xmi:type="notation:Node" xmi:id="_de4zA4lREeaAgNxxrX8c3Q" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_de4zBIlREeaAgNxxrX8c3Q" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-o9o8IsXEeaI4fTZVmJO_A" type="3004" element="_-oyp0IsXEeaI4fTZVmJO_A">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_-o9o8YsXEeaI4fTZVmJO_A" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-o9o8osXEeaI4fTZVmJO_A"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_de4zAYlREeaAgNxxrX8c3Q" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_de4zAolREeaAgNxxrX8c3Q" x="337" y="69" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JlUeA4lFEeahI8aZx87GvA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_JlUeBIlFEeahI8aZx87GvA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_SmqtQIlGEeahI8aZx87GvA" type="3010" element="_SmnC4IlGEeahI8aZx87GvA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_SmqtQYlGEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_SmqtQolGEeahI8aZx87GvA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2gUiEIlPEeaAgNxxrX8c3Q" type="3010" element="_2gNNUIlPEeaAgNxxrX8c3Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_2gUiEYlPEeaAgNxxrX8c3Q" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2gUiEolPEeaAgNxxrX8c3Q"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_JlUeBYlFEeahI8aZx87GvA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_JlUeBolFEeahI8aZx87GvA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_JlUeAYlFEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JlUeAolFEeahI8aZx87GvA" x="65" y="65" width="346" height="186"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jU-WEIuVEeaGxLrgKRL_Kg" type="2003" element="_jU0lEIuVEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_l0aM8IuVEeaGxLrgKRL_Kg" type="3012" element="_l0VUcIuVEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_l0a0AIuVEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_l0a0AYuVEeaGxLrgKRL_Kg" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_l0a0AouVEeaGxLrgKRL_Kg" type="3004" element="_l0VUcYuVEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_l0a0A4uVEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l0a0BIuVEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_l0aM8YuVEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l0aM8ouVEeaGxLrgKRL_Kg" x="-22" y="73" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m1nLQIuVEeaGxLrgKRL_Kg" type="3012" element="_m1fPcIuVEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_m1nLQ4uVEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_m1nLRIuVEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_m1nyUIuVEeaGxLrgKRL_Kg" type="3004" element="_m1f2gIuVEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_m1nyUYuVEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1nyUouVEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_m1nLQYuVEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1nLQouVEeaGxLrgKRL_Kg" x="250" y="28" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jU-9IIuVEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_jU_kMIuVEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jU_kMYuVEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jU_kMouVEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jU-WEYuVEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jU-WEouVEeaGxLrgKRL_Kg" x="510" y="70" width="260" height="160"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_E_pg8IuWEeaGxLrgKRL_Kg" type="2003" element="_E_nEsIuWEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_K0z9gIuWEeaGxLrgKRL_Kg" type="3012" element="_K0xhQIuWEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_K00kkIuWEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_K00kkYuWEeaGxLrgKRL_Kg" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_K00kkouWEeaGxLrgKRL_Kg" type="3004" element="_K0xhQYuWEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_K00kk4uWEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K00klIuWEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K0z9gYuWEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K0z9gouWEeaGxLrgKRL_Kg" x="-22" y="24" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LS4ZkIuWEeaGxLrgKRL_Kg" type="3012" element="_LS2kYIuWEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_LS5AoIuWEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LS5AoYuWEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LS5AoouWEeaGxLrgKRL_Kg" type="3004" element="_LS3LcIuWEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LS5Ao4uWEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LS5ApIuWEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_LS4ZkYuWEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LS4ZkouWEeaGxLrgKRL_Kg" x="241" y="29" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E_pg84uWEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_E_pg9IuWEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_E_pg9YuWEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_E_pg9ouWEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_E_pg8YuWEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E_pg8ouWEeaGxLrgKRL_Kg" x="875" y="65" width="251" height="156"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_g02tQIuWEeaGxLrgKRL_Kg" type="2003" element="_g00RAIuWEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_ixtbgIuWEeaGxLrgKRL_Kg" type="3012" element="_ixsNYIuWEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_ixuCkIuWEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ixuCkYuWEeaGxLrgKRL_Kg" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jGVAoIuWEeaGxLrgKRL_Kg" type="3004" element="_jGUZkIuWEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jGVAoYuWEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jGVAoouWEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ixtbgYuWEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ixtbgouWEeaGxLrgKRL_Kg" x="-22" y="59" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_g03UUIuWEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_g03UUYuWEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_g03UUouWEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_g03UU4uWEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_g02tQYuWEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g02tQouWEeaGxLrgKRL_Kg" x="1265" y="70" width="230" height="145"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_JlT28olFEeahI8aZx87GvA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_upsIkIlFEeahI8aZx87GvA" name="sequencer">
+      <target xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.0"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_deysYIlREeaAgNxxrX8c3Q" name="p2" tooltipText="p2" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_-oyp0IsXEeaI4fTZVmJO_A" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ikq68IsbEeaI4fTZVmJO_A" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_SmnC4IlGEeahI8aZx87GvA" name="path : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="My.fbpmodel#//@types.0/@vars.0"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="My.fbpmodel#//@types.0/@vars.0"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_Smnp8IlGEeahI8aZx87GvA" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_2gNNUIlPEeaAgNxxrX8c3Q" name="toto : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="My.fbpmodel#//@types.0/@vars.1"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="My.fbpmodel#//@types.0/@vars.1"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_2gN0YIlPEeaAgNxxrX8c3Q" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_jU0lEIuVEeaGxLrgKRL_Kg" name="Copier">
+      <target xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.1"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_l0VUcIuVEeaGxLrgKRL_Kg" name="in" tooltipText="in" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.1/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.1/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_l0VUcYuVEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_m1fPcIuVEeaGxLrgKRL_Kg" name="out" tooltipText="out" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.1/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.1/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_m1f2gIuVEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_oBV-kIuVEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_E_nEsIuWEeaGxLrgKRL_Kg" name="encoder">
+      <target xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.2"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_K0xhQIuWEeaGxLrgKRL_Kg" name="in" tooltipText="in" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.2/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.2/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_K0xhQYuWEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_LS2kYIuWEeaGxLrgKRL_Kg" name="out" tooltipText="out" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.2/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.2/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_LS3LcIuWEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_PAO1EIuWEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_g00RAIuWEeaGxLrgKRL_Kg" name="merger">
+      <target xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.3"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="My.fbpmodel#//@types.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_ixsNYIuWEeaGxLrgKRL_Kg" name="p1" tooltipText="p1" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.3/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="My.fbpmodel#//@types.3/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jGUZkIuWEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" shape="ring" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_g004EIuWEeaGxLrgKRL_Kg" showIcon="false" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_JlTP-IlFEeahI8aZx87GvA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer"/>
+    <target xmi:type="fbpmodel:Library" href="My.fbpmodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_3mzioYlHEeahI8aZx87GvA" name="new configuration">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_3mzioolHEeahI8aZx87GvA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_3mzio4lHEeahI8aZx87GvA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_3m0JsIlHEeahI8aZx87GvA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3m0JsYlHEeahI8aZx87GvA" type="Sirius" element="_3mzioYlHEeahI8aZx87GvA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_3m0Js4lHEeahI8aZx87GvA" type="2001" element="_3mzipIlHEeahI8aZx87GvA">
+          <children xmi:type="notation:Node" xmi:id="_3m0wwIlHEeahI8aZx87GvA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3m0wwYlHEeahI8aZx87GvA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3m_v4IlHEeahI8aZx87GvA" type="3001" element="_3mzipYlHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nCzMIlHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nCzMYlHEeahI8aZx87GvA" x="-1" y="-19"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nEoYIlHEeahI8aZx87GvA" type="3004" element="_3mzipolHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nEoYYlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nEoYolHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3m_v4YlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3m_v4olHEeahI8aZx87GvA" x="-22" y="8" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nDaQIlHEeahI8aZx87GvA" type="3001" element="_3mzip4lHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nDaQ4lHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nDaRIlHEeahI8aZx87GvA" x="31" y="-19"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nEoY4lHEeahI8aZx87GvA" type="3004" element="_3mziqIlHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nEoZIlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nEoZYlHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nDaQYlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nDaQolHEeahI8aZx87GvA" x="223" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nEBUIlHEeahI8aZx87GvA" type="3005" element="_3mziqYlHEeahI8aZx87GvA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nEBUYlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nEBUolHEeahI8aZx87GvA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3m0JtIlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3m0JtYlHEeahI8aZx87GvA" x="600" y="135" width="231" height="131"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3m-hwIlHEeahI8aZx87GvA" type="2001" element="_3mziqolHEeahI8aZx87GvA">
+          <children xmi:type="notation:Node" xmi:id="_3m-hw4lHEeahI8aZx87GvA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3m-hxIlHEeahI8aZx87GvA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nEoZolHEeahI8aZx87GvA" type="3001" element="_3mziq4lHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nF2gIlHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nF2gYlHEeahI8aZx87GvA" x="-51" y="-39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHEqIlHEeahI8aZx87GvA" type="3004" element="_3mzirIlHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHEqYlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHEqolHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nEoZ4lHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nEoaIlHEeahI8aZx87GvA" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nF2golHEeahI8aZx87GvA" type="3001" element="_3mzirYlHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nF2hYlHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nF2holHEeahI8aZx87GvA" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHEq4lHEeahI8aZx87GvA" type="3004" element="_3mzirolHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHErIlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHErYlHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nF2g4lHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nF2hIlHEeahI8aZx87GvA" x="-22" y="31" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nGdkIlHEeahI8aZx87GvA" type="3001" element="_3mzir4lHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nGdk4lHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nGdlIlHEeahI8aZx87GvA" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHErolHEeahI8aZx87GvA" type="3004" element="_3mzisIlHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHEr4lHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHEsIlHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nGdkYlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nGdkolHEeahI8aZx87GvA" x="-22" y="62" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nGdlYlHEeahI8aZx87GvA" type="3001" element="_3mzisYlHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nGdmIlHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nGdmYlHEeahI8aZx87GvA" x="31" y="-39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHrsIlHEeahI8aZx87GvA" type="3004" element="_3mzisolHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHrsYlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHrsolHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nGdlolHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nGdl4lHEeahI8aZx87GvA" x="223" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nGdmolHEeahI8aZx87GvA" type="3001" element="_3mzis4lHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nGdnYlHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nGdnolHEeahI8aZx87GvA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHrs4lHEeahI8aZx87GvA" type="3004" element="_3mzitIlHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHrtIlHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHrtYlHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nGdm4lHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nGdnIlHEeahI8aZx87GvA" x="223" y="31" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nHEoIlHEeahI8aZx87GvA" type="3001" element="_3mzitYlHEeahI8aZx87GvA">
+            <children xmi:type="notation:Node" xmi:id="_3nHEo4lHEeahI8aZx87GvA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3nHEpIlHEeahI8aZx87GvA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3nHrtolHEeahI8aZx87GvA" type="3004" element="_3mzitolHEeahI8aZx87GvA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHrt4lHEeahI8aZx87GvA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHruIlHEeahI8aZx87GvA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHEoYlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHEoolHEeahI8aZx87GvA" x="223" y="62" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nHEpYlHEeahI8aZx87GvA" type="3005" element="_3mzit4lHEeahI8aZx87GvA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3nHEpolHEeahI8aZx87GvA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nHEp4lHEeahI8aZx87GvA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3m-hwYlHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3m-hwolHEeahI8aZx87GvA" x="205" y="135" width="231" height="131"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3m0JsolHEeahI8aZx87GvA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_3nNyUIlHEeahI8aZx87GvA" type="4001" element="_3mziuIlHEeahI8aZx87GvA" source="_3nGdlYlHEeahI8aZx87GvA" target="_3m_v4IlHEeahI8aZx87GvA">
+          <children xmi:type="notation:Node" xmi:id="_3nPngIlHEeahI8aZx87GvA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nPngYlHEeahI8aZx87GvA" x="-1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nQOkIlHEeahI8aZx87GvA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nQOkYlHEeahI8aZx87GvA" x="-2" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3nQ1oIlHEeahI8aZx87GvA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3nQ1oYlHEeahI8aZx87GvA" x="-6" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3nNyUYlHEeahI8aZx87GvA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3nNyUolHEeahI8aZx87GvA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3nNyU4lHEeahI8aZx87GvA" points="[15, 1, -135, -10]$[135, 9, -15, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3nXjUIlHEeahI8aZx87GvA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3nXjUYlHEeahI8aZx87GvA" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3mzipIlHEeahI8aZx87GvA" name="comp1 : comp1" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="instance.fbpmodel#//@instance.0"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="instance.fbpmodel#//@instance.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzipYlHEeahI8aZx87GvA" tooltipText="" incomingEdges="_3mziuIlHEeahI8aZx87GvA" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzipolHEeahI8aZx87GvA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzip4lHEeahI8aZx87GvA" tooltipText="" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mziqIlHEeahI8aZx87GvA" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_3mziqYlHEeahI8aZx87GvA" showIcon="false" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3mziqolHEeahI8aZx87GvA" name="comp2 : Comp2" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="instance.fbpmodel#//@instance.1"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="instance.fbpmodel#//@instance.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mziq4lHEeahI8aZx87GvA" name="p1" tooltipText="p1" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzirIlHEeahI8aZx87GvA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzirYlHEeahI8aZx87GvA" name="p3" tooltipText="p3" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzirolHEeahI8aZx87GvA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzir4lHEeahI8aZx87GvA" name="p2" tooltipText="p2" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzisIlHEeahI8aZx87GvA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzisYlHEeahI8aZx87GvA" name="p4" tooltipText="p4" outgoingEdges="_3mziuIlHEeahI8aZx87GvA" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzisolHEeahI8aZx87GvA" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzis4lHEeahI8aZx87GvA" name="p5" tooltipText="p5" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzitIlHEeahI8aZx87GvA" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_3mzitYlHEeahI8aZx87GvA" tooltipText="" width="3" height="3">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_3mzitolHEeahI8aZx87GvA" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_3mzit4lHEeahI8aZx87GvA" showIcon="false" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_3mziuIlHEeahI8aZx87GvA" sourceNode="_3mzisYlHEeahI8aZx87GvA" targetNode="_3mzipYlHEeahI8aZx87GvA">
+      <target xmi:type="fbpmodel:Connector" href="instance.fbpmodel#//@connection.0"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="instance.fbpmodel#//@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3mziuYlHEeahI8aZx87GvA" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3mziuolHEeahI8aZx87GvA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_3mziu4lHEeahI8aZx87GvA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer"/>
+    <target xmi:type="fbpmodel:Configuration" href="instance.fbpmodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_d-grEIlNEea2HP2PosNoiA" name="new configuration">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_d-grEYlNEea2HP2PosNoiA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_d-grEolNEea2HP2PosNoiA">
+        <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_huSUcIs6EeaI4fTZVmJO_A" showIcon="false" labelExpression="aql:self.name.concat(' : ').concat(self.type.name)" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fbp.project.design/image/path2330.png">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_d-zmAIlNEea2HP2PosNoiA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_d-zmAYlNEea2HP2PosNoiA" type="Sirius" element="_d-grEIlNEea2HP2PosNoiA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_xe5hgIlNEea2HP2PosNoiA" type="2001" element="_xe13IIlNEea2HP2PosNoiA">
+          <children xmi:type="notation:Node" xmi:id="_xe6IkYlNEea2HP2PosNoiA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xe6IkolNEea2HP2PosNoiA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_de6oMIlREeaAgNxxrX8c3Q" type="3001" element="_de1IoIlREeaAgNxxrX8c3Q">
+            <children xmi:type="notation:Node" xmi:id="_de6oM4lREeaAgNxxrX8c3Q" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_de6oNIlREeaAgNxxrX8c3Q" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_CxoHcIsYEeaI4fTZVmJO_A" type="3004" element="_CxlEIIsYEeaI4fTZVmJO_A">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_CxoHcYsYEeaI4fTZVmJO_A" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxoHcosYEeaI4fTZVmJO_A"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_de6oMYlREeaAgNxxrX8c3Q" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_de6oMolREeaAgNxxrX8c3Q" x="121" y="20" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_huUJoIs6EeaI4fTZVmJO_A" type="3005" element="_huSUcYs6EeaI4fTZVmJO_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_huUJoYs6EeaI4fTZVmJO_A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_huUJoos6EeaI4fTZVmJO_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xe5hgYlNEea2HP2PosNoiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xe6IkIlNEea2HP2PosNoiA" x="65" y="46" width="281" height="125"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qwQ8MItDEeaGxLrgKRL_Kg" type="2001" element="_qwKOgItDEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_qwQ8M4tDEeaGxLrgKRL_Kg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qwQ8NItDEeaGxLrgKRL_Kg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qwRjQItDEeaGxLrgKRL_Kg" type="3001" element="_qwK1kYtDEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_qwSKUItDEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qwSKUYtDEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qwSxYItDEeaGxLrgKRL_Kg" type="3004" element="_qwK1kotDEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qwSxYYtDEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qwSxYotDEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qwRjQYtDEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qwRjQotDEeaGxLrgKRL_Kg" x="273" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qwSKUotDEeaGxLrgKRL_Kg" type="3005" element="_qwK1kItDEeaGxLrgKRL_Kg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qwSKU4tDEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qwSKVItDEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qwQ8MYtDEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qwQ8MotDEeaGxLrgKRL_Kg" x="150" y="221" width="281" height="125"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_d-zmAolNEea2HP2PosNoiA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_xe13IIlNEea2HP2PosNoiA" name="comp1 : sequencer" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="My1.fbpmodel#//@instance.0"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="My1.fbpmodel#//@instance.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_de1IoIlREeaAgNxxrX8c3Q" name="p2" tooltipText="p2" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_CxlEIIsYEeaI4fTZVmJO_A" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_huSUcYs6EeaI4fTZVmJO_A" showIcon="false" labelColor="114,159,207" description="_huSUcIs6EeaI4fTZVmJO_A" borderColor="114,159,207" labelPosition="node" workspacePath="/fbp.project.design/image/path2330.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_qwKOgItDEeaGxLrgKRL_Kg" name="comp1 : sequencer" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="My1.fbpmodel#//@instance.1"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="My1.fbpmodel#//@instance.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_qwK1kYtDEeaGxLrgKRL_Kg" name="p2" tooltipText="p2" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="My.fbpmodel#//@types.0/@outputs.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_qwK1kotDEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_qwK1kItDEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" description="_huSUcIs6EeaI4fTZVmJO_A" borderColor="114,159,207" labelPosition="node" workspacePath="/fbp.project.design/image/path2330.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_d-grE4lNEea2HP2PosNoiA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer"/>
+    <target xmi:type="fbpmodel:Configuration" href="My1.fbpmodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_C-dP0IuXEeaGxLrgKRL_Kg" name="conf1">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_C-dP0YuXEeaGxLrgKRL_Kg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_C-dP0ouXEeaGxLrgKRL_Kg">
+        <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_y9n24ZHgEeaW3svx8P0X0w" showIcon="false" labelExpression="aql:self.name.concat(' : ').concat(self.type.name)" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fbp.project.design/image/path2330.png">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_C-iIUIuXEeaGxLrgKRL_Kg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_C-iIUYuXEeaGxLrgKRL_Kg" type="Sirius" element="_C-dP0IuXEeaGxLrgKRL_Kg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_a1J_MIuXEeaGxLrgKRL_Kg" type="2001" element="_a1Hi8IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_a1KmQIuXEeaGxLrgKRL_Kg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a1KmQYuXEeaGxLrgKRL_Kg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1KmQouXEeaGxLrgKRL_Kg" type="3001" element="_a1Hi8ouXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_a1KmRYuXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a1KmRouXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a1LNWIuXEeaGxLrgKRL_Kg" type="3004" element="_a1Hi84uXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a1LNWYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1LNWouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a1KmQ4uXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1KmRIuXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1LNUIuXEeaGxLrgKRL_Kg" type="3001" element="_a1Hi9IuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_a1LNU4uXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a1LNVIuXEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a1LNW4uXEeaGxLrgKRL_Kg" type="3004" element="_a1Hi9YuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a1LNXIuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1LNXYuXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a1LNUYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1LNUouXEeaGxLrgKRL_Kg" x="178" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1LNVYuXEeaGxLrgKRL_Kg" type="3005" element="_a1Hi8YuXEeaGxLrgKRL_Kg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a1LNVouXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1LNV4uXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a1J_MYuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1J_MouXEeaGxLrgKRL_Kg" x="600" y="37" width="186" height="105"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dTMH4IuXEeaGxLrgKRL_Kg" type="2001" element="_dTIdgIuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_dTMH44uXEeaGxLrgKRL_Kg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dTMH5IuXEeaGxLrgKRL_Kg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dTMu8IuXEeaGxLrgKRL_Kg" type="3001" element="_dTJEkYuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_dTMu84uXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dTMu9IuXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dTNWBYuXEeaGxLrgKRL_Kg" type="3004" element="_dTJEkouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dTNWBouXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTNWB4uXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dTMu8YuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTMu8ouXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dTMu9YuXEeaGxLrgKRL_Kg" type="3001" element="_dTJEk4uXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_dTNWAIuXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dTNWAYuXEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dTN9EIuXEeaGxLrgKRL_Kg" type="3004" element="_dTJElIuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dTN9EYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTN9EouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dTMu9ouXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTMu94uXEeaGxLrgKRL_Kg" x="158" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dTNWAouXEeaGxLrgKRL_Kg" type="3005" element="_dTJEkIuXEeaGxLrgKRL_Kg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dTNWA4uXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTNWBIuXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dTMH4YuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTMH4ouXEeaGxLrgKRL_Kg" x="870" y="43" width="166" height="94"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jfMXIIuXEeaGxLrgKRL_Kg" type="2001" element="_jfIFsIuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_jfM-MIuXEeaGxLrgKRL_Kg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jfM-MYuXEeaGxLrgKRL_Kg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jfM-MouXEeaGxLrgKRL_Kg" type="3001" element="_jfIswYuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_jfM-NYuXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jfM-NouXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jfOMU4uXEeaGxLrgKRL_Kg" type="3004" element="_jfIswouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jfOMVIuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfOMVYuXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jfM-M4uXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfM-NIuXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jfNlQIuXEeaGxLrgKRL_Kg" type="3001" element="_jfJT0IuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_jfNlQ4uXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jfNlRIuXEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jfOMVouXEeaGxLrgKRL_Kg" type="3004" element="_jfJT0YuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jfOMV4uXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfOMWIuXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jfNlQYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfNlQouXEeaGxLrgKRL_Kg" x="153" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jfOMUIuXEeaGxLrgKRL_Kg" type="3005" element="_jfIswIuXEeaGxLrgKRL_Kg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jfOMUYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfOMUouXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jfMXIYuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jfMXIouXEeaGxLrgKRL_Kg" x="1110" y="44" width="161" height="91"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o8MyYIuXEeaGxLrgKRL_Kg" type="2001" element="_o8Ig8IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_o8MyY4uXEeaGxLrgKRL_Kg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_o8MyZIuXEeaGxLrgKRL_Kg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o8NZcIuXEeaGxLrgKRL_Kg" type="3001" element="_o8JIAIuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_o8NZc4uXEeaGxLrgKRL_Kg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_o8NZdIuXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_o8OAg4uXEeaGxLrgKRL_Kg" type="3004" element="_o8JIAYuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_o8OAhIuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8OAhYuXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_o8NZcYuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8NZcouXEeaGxLrgKRL_Kg" x="-22" y="11" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o8OAgIuXEeaGxLrgKRL_Kg" type="3005" element="_o8Ig8YuXEeaGxLrgKRL_Kg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_o8OAgYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8OAgouXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o8MyYYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8MyYouXEeaGxLrgKRL_Kg" x="1365" y="40" width="191" height="99"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_04J2oI9_Eea0yrY5lVH0jA" type="2001" element="_04AFoI9_Eea0yrY5lVH0jA">
+          <children xmi:type="notation:Node" xmi:id="_04KdsI9_Eea0yrY5lVH0jA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_04KdsY9_Eea0yrY5lVH0jA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_04Kdso9_Eea0yrY5lVH0jA" type="3001" element="_04AssI9_Eea0yrY5lVH0jA">
+            <children xmi:type="notation:Node" xmi:id="_04LEwI9_Eea0yrY5lVH0jA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_04LEwY9_Eea0yrY5lVH0jA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_04MS449_Eea0yrY5lVH0jA" type="3004" element="_04AssY9_Eea0yrY5lVH0jA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_04MS5I9_Eea0yrY5lVH0jA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04MS5Y9_Eea0yrY5lVH0jA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_04Kds49_Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04KdtI9_Eea0yrY5lVH0jA" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_04Lr0I9_Eea0yrY5lVH0jA" type="3001" element="_04BTwI9_Eea0yrY5lVH0jA">
+            <children xmi:type="notation:Node" xmi:id="_04Lr049_Eea0yrY5lVH0jA" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_04Lr1I9_Eea0yrY5lVH0jA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_E8nYwI-AEea0yrY5lVH0jA" type="3004" element="_E8ljkI-AEea0yrY5lVH0jA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_E8nYwY-AEea0yrY5lVH0jA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E8nYwo-AEea0yrY5lVH0jA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_04Lr0Y9_Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04Lr0o9_Eea0yrY5lVH0jA" x="223" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_04MS4I9_Eea0yrY5lVH0jA" type="3005" element="_04AFoY9_Eea0yrY5lVH0jA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_04MS4Y9_Eea0yrY5lVH0jA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04MS4o9_Eea0yrY5lVH0jA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_04J2oY9_Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04J2oo9_Eea0yrY5lVH0jA" x="285" y="44" width="231" height="131"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_y948oJHgEeaW3svx8P0X0w" type="2001" element="_y9n24JHgEeaW3svx8P0X0w">
+          <children xmi:type="notation:Node" xmi:id="_y95jsJHgEeaW3svx8P0X0w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_y95jsZHgEeaW3svx8P0X0w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_y97_8JHgEeaW3svx8P0X0w" type="3001" element="_y9od8JHgEeaW3svx8P0X0w">
+            <children xmi:type="notation:Node" xmi:id="_y97_85HgEeaW3svx8P0X0w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_y97_9JHgEeaW3svx8P0X0w" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_y99OEJHgEeaW3svx8P0X0w" type="3004" element="_y9od8ZHgEeaW3svx8P0X0w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_y99OEZHgEeaW3svx8P0X0w" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y99OEpHgEeaW3svx8P0X0w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_y97_8ZHgEeaW3svx8P0X0w" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y97_8pHgEeaW3svx8P0X0w" x="173" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_y98nAJHgEeaW3svx8P0X0w" type="3005" element="_y9n24pHgEeaW3svx8P0X0w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_y98nAZHgEeaW3svx8P0X0w" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y98nApHgEeaW3svx8P0X0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_y948oZHgEeaW3svx8P0X0w" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y948opHgEeaW3svx8P0X0w" x="40" y="185" width="181" height="81"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_C-iIUouXEeaGxLrgKRL_Kg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_ATw-UI-AEea0yrY5lVH0jA" type="4001" element="_ATt7AI-AEea0yrY5lVH0jA" source="_a1LNUIuXEeaGxLrgKRL_Kg" target="_dTMu8IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_ATw-VI-AEea0yrY5lVH0jA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATw-VY-AEea0yrY5lVH0jA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATw-Vo-AEea0yrY5lVH0jA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATw-V4-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATw-WI-AEea0yrY5lVH0jA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATw-WY-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATw-UY-AEea0yrY5lVH0jA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATw-Uo-AEea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATw-U4-AEea0yrY5lVH0jA" points="[15, 1, -55, -5]$[55, 4, -15, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyMcI-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyMcY-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATyMco-AEea0yrY5lVH0jA" type="4001" element="_ATuiEo-AEea0yrY5lVH0jA" source="_dTMu9YuXEeaGxLrgKRL_Kg" target="_jfM-MouXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_ATyMdo-AEea0yrY5lVH0jA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyMd4-AEea0yrY5lVH0jA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATyzgI-AEea0yrY5lVH0jA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyzgY-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATyzgo-AEea0yrY5lVH0jA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyzg4-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATyMc4-AEea0yrY5lVH0jA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATyMdI-AEea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATyMdY-AEea0yrY5lVH0jA" points="[15, 0, -45, -1]$[45, 0, -15, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyzhI-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyzhY-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATyzho-AEea0yrY5lVH0jA" type="4001" element="_ATvJII-AEea0yrY5lVH0jA" source="_jfNlQIuXEeaGxLrgKRL_Kg" target="_o8NZcIuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_ATyzio-AEea0yrY5lVH0jA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyzi4-AEea0yrY5lVH0jA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATyzjI-AEea0yrY5lVH0jA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyzjY-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATyzjo-AEea0yrY5lVH0jA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATyzj4-AEea0yrY5lVH0jA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATyzh4-AEea0yrY5lVH0jA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATyziI-AEea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATyziY-AEea0yrY5lVH0jA" points="[15, 1, -65, -6]$[65, 5, -15, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyzkI-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATyzkY-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ATzamI-AEea0yrY5lVH0jA" type="4001" element="_ATvJJo-AEea0yrY5lVH0jA" source="_04Lr0I9_Eea0yrY5lVH0jA" target="_a1KmQouXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_ATzanI-AEea0yrY5lVH0jA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATzanY-AEea0yrY5lVH0jA" x="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATzano-AEea0yrY5lVH0jA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATzan4-AEea0yrY5lVH0jA" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ATzaoI-AEea0yrY5lVH0jA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ATzaoY-AEea0yrY5lVH0jA" x="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ATzamY-AEea0yrY5lVH0jA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ATzamo-AEea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ATzam4-AEea0yrY5lVH0jA" points="[15, 2, -55, 6]$[71, 10, 1, 14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AT0BoI-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AT0BoY-AEea0yrY5lVH0jA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_0Sms0JHgEeaW3svx8P0X0w" type="4001" element="_0SYDUJHgEeaW3svx8P0X0w" source="_y97_8JHgEeaW3svx8P0X0w" target="_04Kdso9_Eea0yrY5lVH0jA">
+          <children xmi:type="notation:Node" xmi:id="_0Sn68JHgEeaW3svx8P0X0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Sn68ZHgEeaW3svx8P0X0w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0SoiAJHgEeaW3svx8P0X0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SoiAZHgEeaW3svx8P0X0w" x="4" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0SpJEJHgEeaW3svx8P0X0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SpJEZHgEeaW3svx8P0X0w" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_0Sms0ZHgEeaW3svx8P0X0w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_0Sms0pHgEeaW3svx8P0X0w" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Sms05HgEeaW3svx8P0X0w" points="[4, -12, -46, 126]$[43, -126, -7, 12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0SpwIJHgEeaW3svx8P0X0w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0SpwIZHgEeaW3svx8P0X0w" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_a1Hi8IuXEeaGxLrgKRL_Kg" name="copier : Copier" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.0"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_a1Hi8ouXEeaGxLrgKRL_Kg" name="in" tooltipText="in" incomingEdges="_ATvJJo-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_a1Hi84uXEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_a1Hi9IuXEeaGxLrgKRL_Kg" name="out" tooltipText="out" outgoingEdges="_ATt7AI-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_a1Hi9YuXEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_a1Hi8YuXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dTIdgIuXEeaGxLrgKRL_Kg" name="encoder : encoder" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.1"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_dTJEkYuXEeaGxLrgKRL_Kg" name="in" tooltipText="in" incomingEdges="_ATt7AI-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.2/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.2/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_dTJEkouXEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_dTJEk4uXEeaGxLrgKRL_Kg" name="out" tooltipText="out" outgoingEdges="_ATuiEo-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.2/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.2/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_dTJElIuXEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_dTJEkIuXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jfIFsIuXEeaGxLrgKRL_Kg" name="copier : Copier" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.2"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_jfIswYuXEeaGxLrgKRL_Kg" name="in" tooltipText="in" incomingEdges="_ATuiEo-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jfIswouXEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_jfJT0IuXEeaGxLrgKRL_Kg" name="out" tooltipText="out" outgoingEdges="_ATvJII-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jfJT0YuXEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jfIswIuXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_o8Ig8IuXEeaGxLrgKRL_Kg" name="merger : merger" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.3"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_o8JIAIuXEeaGxLrgKRL_Kg" name="p1" tooltipText="p1" incomingEdges="_ATvJII-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.3/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.3/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_o8JIAYuXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" shape="ring" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_o8Ig8YuXEeaGxLrgKRL_Kg" showIcon="false" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_04AFoI9_Eea0yrY5lVH0jA" name="sequencer : sequencer" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.4"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_04AssI9_Eea0yrY5lVH0jA" tooltipText="" incomingEdges="_0SYDUJHgEeaW3svx8P0X0w" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.0/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.0/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_04AssY9_Eea0yrY5lVH0jA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_04BTwI9_Eea0yrY5lVH0jA" name="out" tooltipText="out" outgoingEdges="_ATvJJo-AEea0yrY5lVH0jA" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.0/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.0/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_E8ljkI-AEea0yrY5lVH0jA" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_04AFoY9_Eea0yrY5lVH0jA" showIcon="false" labelPosition="node" workspacePath="/fbp.project.design/component-api.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_y9n24JHgEeaW3svx8P0X0w" name="movie : movie" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.5"/>
+      <semanticElements xmi:type="fbpmodel:ComponentInstance" href="conf.fbpmodel#//@instance.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_y9od8JHgEeaW3svx8P0X0w" tooltipText="" outgoingEdges="_0SYDUJHgEeaW3svx8P0X0w" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.4/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.4/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_y9od8ZHgEeaW3svx8P0X0w" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_y9n24pHgEeaW3svx8P0X0w" showIcon="false" description="_y9n24ZHgEeaW3svx8P0X0w" labelPosition="node" workspacePath="/fbp.project.design/image/path2330.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ATt7AI-AEea0yrY5lVH0jA" sourceNode="_a1Hi9IuXEeaGxLrgKRL_Kg" targetNode="_dTJEkYuXEeaGxLrgKRL_Kg">
+      <target xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.0"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ATuiEI-AEea0yrY5lVH0jA" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ATuiEY-AEea0yrY5lVH0jA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ATuiEo-AEea0yrY5lVH0jA" sourceNode="_dTJEk4uXEeaGxLrgKRL_Kg" targetNode="_jfIswYuXEeaGxLrgKRL_Kg">
+      <target xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.1"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ATuiE4-AEea0yrY5lVH0jA" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ATuiFI-AEea0yrY5lVH0jA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ATvJII-AEea0yrY5lVH0jA" sourceNode="_jfJT0IuXEeaGxLrgKRL_Kg" targetNode="_o8JIAIuXEeaGxLrgKRL_Kg">
+      <target xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.2"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ATvJIY-AEea0yrY5lVH0jA" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ATvJIo-AEea0yrY5lVH0jA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ATvJJo-AEea0yrY5lVH0jA" sourceNode="_04BTwI9_Eea0yrY5lVH0jA" targetNode="_a1Hi8ouXEeaGxLrgKRL_Kg">
+      <target xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.4"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ATvJJ4-AEea0yrY5lVH0jA" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ATvJKI-AEea0yrY5lVH0jA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0SYDUJHgEeaW3svx8P0X0w" sourceNode="_y9od8JHgEeaW3svx8P0X0w" targetNode="_04AssI9_Eea0yrY5lVH0jA">
+      <target xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.5"/>
+      <semanticElements xmi:type="fbpmodel:Connector" href="conf.fbpmodel#//@connection.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0SYDUZHgEeaW3svx8P0X0w" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0SYDUpHgEeaW3svx8P0X0w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_C-dP04uXEeaGxLrgKRL_Kg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer"/>
+    <target xmi:type="fbpmodel:Configuration" href="conf.fbpmodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_Ia0K0YuXEeaGxLrgKRL_Kg" name="library1">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ia0K0ouXEeaGxLrgKRL_Kg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Ia0K04uXEeaGxLrgKRL_Kg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ia0K7YuXEeaGxLrgKRL_Kg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Ia0x4IuXEeaGxLrgKRL_Kg" type="Sirius" element="_Ia0K0YuXEeaGxLrgKRL_Kg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Ia0x4ouXEeaGxLrgKRL_Kg" type="2003" element="_Ia0K1IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_wErgkI9_Eea0yrY5lVH0jA" type="3012" element="_wEfTUI9_Eea0yrY5lVH0jA">
+            <children xmi:type="notation:Node" xmi:id="_wErgk49_Eea0yrY5lVH0jA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wErglI9_Eea0yrY5lVH0jA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_E8n_0I-AEea0yrY5lVH0jA" type="3004" element="_E8h5MI-AEea0yrY5lVH0jA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_E8n_0Y-AEea0yrY5lVH0jA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E8n_0o-AEea0yrY5lVH0jA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wErgkY9_Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wErgko9_Eea0yrY5lVH0jA" x="133" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wd6f8I9_Eea0yrY5lVH0jA" type="3012" element="_wdxWAI9_Eea0yrY5lVH0jA">
+            <children xmi:type="notation:Node" xmi:id="_wd6f849_Eea0yrY5lVH0jA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wd6f9I9_Eea0yrY5lVH0jA" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_wd6f9Y9_Eea0yrY5lVH0jA" type="3004" element="_wdx9EI9_Eea0yrY5lVH0jA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_wd6f9o9_Eea0yrY5lVH0jA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wd6f949_Eea0yrY5lVH0jA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wd6f8Y9_Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wd6f8o9_Eea0yrY5lVH0jA" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Ia1Y8IuXEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Ia1Y8YuXEeaGxLrgKRL_Kg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_IbDbYIuXEeaGxLrgKRL_Kg" type="3010" element="_Ia0K2IuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_IbDbYYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbDbYouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbECcIuXEeaGxLrgKRL_Kg" type="3010" element="_Ia0K2ouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_IbECcYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbECcouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qrENAI9-Eea0yrY5lVH0jA" type="3010" element="_qqjPoI9-Eea0yrY5lVH0jA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qrENAY9-Eea0yrY5lVH0jA" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qrENAo9-Eea0yrY5lVH0jA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Ia1Y8ouXEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Ia1Y84uXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia0x44uXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia0x5IuXEeaGxLrgKRL_Kg" x="320" y="80" width="141" height="82"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Ia64gIuXEeaGxLrgKRL_Kg" type="2003" element="_Ia0K3IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_IbECc4uXEeaGxLrgKRL_Kg" type="3012" element="_Ia0K3YuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_IbECdouXEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbECd4uXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbKwIIuXEeaGxLrgKRL_Kg" type="3004" element="_Ia0K3ouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IbKwIYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbKwIouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IbECdIuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbECdYuXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IbEpgIuXEeaGxLrgKRL_Kg" type="3012" element="_Ia0K34uXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_IbFQkIuXEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbFQkYuXEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbOagIuXEeaGxLrgKRL_Kg" type="3004" element="_Ia0K4IuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IbOagYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbOagouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IbEpgYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbEpgouXEeaGxLrgKRL_Kg" x="126" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Ia_J8IuXEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Ia_J8YuXEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Ia_J8ouXEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Ia_J84uXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia64gYuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia64gouXEeaGxLrgKRL_Kg" x="605" y="75" width="126" height="91"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Ia_xAIuXEeaGxLrgKRL_Kg" type="2003" element="_Ia0K4ouXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_IbPBkIuXEeaGxLrgKRL_Kg" type="3012" element="_Ia0K44uXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_IbPBk4uXEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbPBlIuXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbQPsIuXEeaGxLrgKRL_Kg" type="3004" element="_Ia0K5IuXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IbQPsYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbQPsouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IbPBkYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbPBkouXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IbPooIuXEeaGxLrgKRL_Kg" type="3012" element="_Ia0K5YuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_IbPoo4uXEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbPopIuXEeaGxLrgKRL_Kg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbQ2wIuXEeaGxLrgKRL_Kg" type="3004" element="_Ia0K5ouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IbQ2wYuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbQ2wouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IbPooYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbPooouXEeaGxLrgKRL_Kg" x="156" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Ia_xA4uXEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Ia_xBIuXEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Ia_xBYuXEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Ia_xBouXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia_xAYuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia_xAouXEeaGxLrgKRL_Kg" x="855" y="80" width="156" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Ia_xB4uXEeaGxLrgKRL_Kg" type="2003" element="_Ia0K6IuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_IbRd0IuXEeaGxLrgKRL_Kg" type="3012" element="_Ia0K6YuXEeaGxLrgKRL_Kg">
+            <children xmi:type="notation:Node" xmi:id="_IbSE4IuXEeaGxLrgKRL_Kg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_IbSE4YuXEeaGxLrgKRL_Kg" x="-51"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IbSr8IuXEeaGxLrgKRL_Kg" type="3004" element="_Ia0K6ouXEeaGxLrgKRL_Kg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IbSr8YuXEeaGxLrgKRL_Kg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbSr8ouXEeaGxLrgKRL_Kg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IbRd0YuXEeaGxLrgKRL_Kg" fontColor="13606770" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IbRd0ouXEeaGxLrgKRL_Kg" x="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Ia_xCouXEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_IbAYEIuXEeaGxLrgKRL_Kg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_IbAYEYuXEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_IbAYEouXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ia_xCIuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ia_xCYuXEeaGxLrgKRL_Kg" x="255" y="245" width="143" height="91"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Q8JSsIuXEeaGxLrgKRL_Kg" type="2003" element="_Q8GPYIuXEeaGxLrgKRL_Kg">
+          <children xmi:type="notation:Node" xmi:id="_wOhzYJHgEeaW3svx8P0X0w" type="3012" element="_wOYCYJHgEeaW3svx8P0X0w">
+            <children xmi:type="notation:Node" xmi:id="_wOhzY5HgEeaW3svx8P0X0w" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wOhzZJHgEeaW3svx8P0X0w" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_wOiacJHgEeaW3svx8P0X0w" type="3004" element="_wOYpcJHgEeaW3svx8P0X0w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_wOiacZHgEeaW3svx8P0X0w" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOiacpHgEeaW3svx8P0X0w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wOhzYZHgEeaW3svx8P0X0w" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wOhzYpHgEeaW3svx8P0X0w" x="116" y="15" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Q8J5wIuXEeaGxLrgKRL_Kg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Q8J5wYuXEeaGxLrgKRL_Kg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vdROcIxiEeahZtGnVxGADw" type="3010" element="_vcX2kIxiEeahZtGnVxGADw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vdROcYxiEeahZtGnVxGADw" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vdROcoxiEeahZtGnVxGADw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Q8J5wouXEeaGxLrgKRL_Kg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Q8J5w4uXEeaGxLrgKRL_Kg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Q8JSsYuXEeaGxLrgKRL_Kg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q8JSsouXEeaGxLrgKRL_Kg" x="70" y="75" width="126" height="76"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Ia0x4YuXEeaGxLrgKRL_Kg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Ia0K1IuXEeaGxLrgKRL_Kg" name="sequencer">
+      <target xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.0"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_wEfTUI9_Eea0yrY5lVH0jA" name="out" tooltipText="out" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.0/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.0/@outputs.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_E8h5MI-AEea0yrY5lVH0jA" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_wdxWAI9_Eea0yrY5lVH0jA" tooltipText="" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.0/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.0/@inputs.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_wdx9EI9_Eea0yrY5lVH0jA" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_sC7loI6_Eeac-Y38d7NemA" showIcon="false" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Ia0K2IuXEeaGxLrgKRL_Kg" name="path : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.0"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.0"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_Ia0K2YuXEeaGxLrgKRL_Kg" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Ia0K2ouXEeaGxLrgKRL_Kg" name="toto : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.1"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.1"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_Ia0K24uXEeaGxLrgKRL_Kg" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_qqjPoI9-Eea0yrY5lVH0jA" name="nbreWorker : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.2"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.0/@vars.2"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_qqlE0I9-Eea0yrY5lVH0jA" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Ia0K3IuXEeaGxLrgKRL_Kg" name="Copier">
+      <target xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.1"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Ia0K3YuXEeaGxLrgKRL_Kg" name="in" tooltipText="in" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.1/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Ia0K3ouXEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Ia0K34uXEeaGxLrgKRL_Kg" name="out" tooltipText="out" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.1/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Ia0K4IuXEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Ia0K4YuXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Ia0K4ouXEeaGxLrgKRL_Kg" name="encoder">
+      <target xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.2"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Ia0K44uXEeaGxLrgKRL_Kg" name="in" tooltipText="in" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.2/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.2/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Ia0K5IuXEeaGxLrgKRL_Kg" showIcon="false" shape="ring">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Ia0K5YuXEeaGxLrgKRL_Kg" name="out" tooltipText="out" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.2/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.2/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Ia0K5ouXEeaGxLrgKRL_Kg" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Ia0K54uXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Ia0K6IuXEeaGxLrgKRL_Kg" name="merger">
+      <target xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.3"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Ia0K6YuXEeaGxLrgKRL_Kg" name="p1" tooltipText="p1" width="3" height="3">
+        <target xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.3/@inputs.0"/>
+        <semanticElements xmi:type="fbpmodel:InputPort" href="types.fbpmodel#//@types.3/@inputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Ia0K6ouXEeaGxLrgKRL_Kg" showIcon="false" labelColor="114,159,207" borderColor="114,159,207" shape="ring" color="114,159,207">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Ia0K64uXEeaGxLrgKRL_Kg" showIcon="false" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Q8GPYIuXEeaGxLrgKRL_Kg" name="movie">
+      <target xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.4"/>
+      <semanticElements xmi:type="fbpmodel:ComponentType" href="types.fbpmodel#//@types.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_wOYCYJHgEeaW3svx8P0X0w" tooltipText="" width="3" height="3">
+        <target xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.4/@outputs.0"/>
+        <semanticElements xmi:type="fbpmodel:OutputPort" href="types.fbpmodel#//@types.4/@outputs.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_wOYpcJHgEeaW3svx8P0X0w" showIcon="false">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Q8G2cIuXEeaGxLrgKRL_Kg" showIcon="false" workspacePath="/fbp.project.design/image/dessin-1.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_vcX2kIxiEeahZtGnVxGADw" name="fileName : string">
+        <target xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.4/@vars.0"/>
+        <semanticElements xmi:type="fbpmodel:VariableDescription" href="types.fbpmodel#//@types.4/@vars.0"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_vcaS0IxiEeahZtGnVxGADw" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Ia0K7IuXEeaGxLrgKRL_Kg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fbp.project.design/description/fbp.odesign#//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer"/>
+    <target xmi:type="fbpmodel:Library" href="types.fbpmodel#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

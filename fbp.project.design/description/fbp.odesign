@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="fbp" version="11.0.0.201609021200">
+  <ownedViewpoints name="library">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="library" initialisation="true" domainClass="fbpmodel.Library" enablePopupBars="true">
+      <metamodel href="http://www.example.org/fbpmodel#/"/>
+      <layout xsi:type="description_1:CompositeLayout" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <containerMappings name="ComponentType" semanticCandidatesExpression="feature:types" domainClass="ComponentType" childrenPresentation="List">
+          <borderedNodeMappings name="inputPort" semanticCandidatesExpression="feature:inputs" domainClass="InputPort">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name" shape="ring">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>EAST</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.multiple">
+              <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name" shape="ring">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>EAST</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="outputport" semanticCandidatesExpression="feature:outputs" domainClass="OutputPort">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>WEST</forbiddenSides>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.multiple">
+              <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <forbiddenSides>WEST</forbiddenSides>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <subNodeMappings name="variableDecl" semanticCandidatesExpression="feature:eAllContents" domainClass="VariableDescription">
+            <style xsi:type="style:DotDescription" showIcon="false" labelExpression="aql:self.name.concat(' : ').concat(self.type)" labelAlignment="LEFT" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" roundedCorner="true" workspacePath="/fbp.project.design/image/dessin-1.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.fork">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" roundedCorner="true" workspacePath="/fbp.project.design/image/dessin-1.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </style>
+          </conditionnalStyles>
+        </containerMappings>
+        <toolSections name="library">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="inputPort" nodeMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='inputPort']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="InputPort" referenceName="inputs"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="outputPort" nodeMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@borderedNodeMappings[name='outputport']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="fbpmodel.OutputPort" referenceName="outputs"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ComponentType" containerMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="fbpmodel.ComponentType" referenceName="types"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="VariableDecl" nodeMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='library']/@defaultLayer/@containerMappings[name='ComponentType']/@subNodeMappings[name='variableDecl']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="VariableDescription" referenceName="vars"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:true">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style" attributeName="workspacePath" value="/fbp.project.design/image/movie-clipart-movie-clipart-4.svg"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="configuration" initialisation="true" domainClass="Configuration" enablePopupBars="true">
+      <metamodel href="http://www.example.org/fbpmodel#/"/>
+      <layout xsi:type="description_1:CompositeLayout" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="ComponentInstance" semanticCandidatesExpression="feature:instance" domainClass="ComponentInstance">
+          <borderedNodeMappings name="instanceInputPort" semanticCandidatesExpression="aql:self.type.inputs" synchronizationLock="true" domainClass="InputPort">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name" shape="ring">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>EAST</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.multiple">
+              <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name" shape="ring">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>EAST</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="instanceOutputPort" semanticCandidatesExpression="aql:self.type.outputs" domainClass="fbpmodel.OutputPort">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>WEST</forbiddenSides>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.multiple">
+              <style xsi:type="style:BundledImageDescription" showIcon="false" tooltipExpression="aql:self.name">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+                <forbiddenSides>WEST</forbiddenSides>
+                <forbiddenSides>SOUTH</forbiddenSides>
+                <forbiddenSides>NORTH</forbiddenSides>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.name.concat(' : ').concat(self.type.name)" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fbp.project.design/component-api.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.type.fork">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.name.concat(' : ').concat(self.type.name)" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fbp.project.design/component-api.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <edgeMappings name="connector" preconditionExpression="aql:self.componentInstance->exists(e| e =sourceView.eContainer().target) and self.componentInstance->exists(e| e =targetView.eContainer().target)" sourceMapping="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceOutputPort']" targetMapping="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@borderedNodeMappings[name='instanceInputPort']" targetFinderExpression="aql:self.inputs->select(e|self.componentInstance->exists(e1 |  e1.type = e.eContainer()) )" sourceFinderExpression="aql:self.outputs->select(e|self.componentInstance->exists(e1 |  e1.type = e.eContainer()) )" domainClass="Connector" useDomainElement="true">
+          <style endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Configuration">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ComponentInstance" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']">
+            <variable name="container">
+              <subVariables xsi:type="tool_1:SelectModelElementVariable" name="candidate" candidatesExpression="aql:self.getCandidates()" message="Select the Type"/>
+            </variable>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="fbpmodel.ComponentInstance" referenceName="instance">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="var:candidate">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createVarValues()"/>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:self.type.name.toLowerFirst()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="connetor" edgeMappings="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@edgeMappings[name='connector']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:sourceView.eContainer().target.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="fbpmodel.Connector" referenceName="connection">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="outputs" valueExpression="aql:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="inputs" valueExpression="aql:target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="componentInstance" valueExpression="aql:sourceView.eContainer().target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="componentInstance" valueExpression="aql:targetView.eContainer().target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:PopupMenu" name="fbp" precondition="aql:self.oclIsKindOf(fbpmodel::ComponentInstance )">
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="run" label="run">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.run()"/>
+              </initialOperation>
+            </menuItemDescription>
+          </ownedTools>
+        </toolSections>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.oclAsType(fbpmodel::ComponentInstance).type.picture &lt;> null and not (self.oclAsType(fbpmodel::ComponentInstance).type.picture = '')">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@style //@ownedViewpoints[name='library']/@ownedRepresentations[name='configuration']/@defaultLayer/@nodeMappings[name='ComponentInstance']/@conditionnalStyles.0/@style" attributeName="workspacePath" value="aql:self.oclAsType(fbpmodel::ComponentInstance).type.picture"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fbp.project.design.Services"/>
+  </ownedViewpoints>
+  <extensions xsi:type="properties:ViewExtensionDescription" identifier="component types">
+    <metamodels href="http://www.example.org/fbpmodel#/"/>
+    <pages labelExpression="Properties" groups="//@extensions.0/@groups.1 //@extensions.0/@groups.0"/>
+    <groups identifier="component" labelExpression="Variable Value" domainClass="fbpmodel.ComponentInstance">
+      <controls xsi:type="properties:DynamicMappingFor" iterator="v" iterableExpression="aql:self.vars">
+        <ifs predicateExpression="aql:v.type.type = 'string'">
+          <widget xsi:type="properties:TextDescription" labelExpression="aql:v.type.name" valueExpression="aql:v.value">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:v">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="value" valueExpression="var:newValue"/>
+              </firstModelOperations>
+            </initialOperation>
+          </widget>
+        </ifs>
+      </controls>
+    </groups>
+    <groups labelExpression="Group" domainClass="EObject">
+      <controls xsi:type="properties:DynamicMappingFor" iterator="eStructuralFeature" iterableExpression="aql:self.eClass().eAllStructuralFeatures->select(f : ecore::EStructuralFeature | not f.derived and not f.transient and (f.oclIsKindOf(ecore::EAttribute)  or not f.oclAsType(ecore::EReference).containment)))">
+        <ifs predicateExpression="aql:(eStructuralFeature.eType.instanceTypeName = 'java.lang.String' or eStructuralFeature.eType.instanceTypeName = 'int' or eStructuralFeature.eType.instanceTypeName = 'double' or eStructuralFeature.eType.instanceTypeName = 'char' or eStructuralFeature.eType.instanceTypeName = 'short' or eStructuralFeature.eType.instanceTypeName = 'long' or eStructuralFeature.eType.instanceTypeName = 'float' or eStructuralFeature.eType.instanceTypeName = 'java.util.Date') and not(eStructuralFeature.many)">
+          <widget xsi:type="properties:TextDescription" identifier="sirius_default_rules_mono_string" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eSet(eStructuralFeature, newValue)"/>
+            </initialOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:(eStructuralFeature.eType.instanceTypeName = 'java.lang.Boolean' or eStructuralFeature.eType.instanceTypeName = 'boolean') and not(eStructuralFeature.many)">
+          <widget xsi:type="properties:CheckboxDescription" identifier="sirius_default_rules_mono_boolean" labelExpression="aql:self.eefViewText(eStructuralFeature)" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eSet(eStructuralFeature, newValue)"/>
+            </initialOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:eStructuralFeature.eType.oclIsKindOf(ecore::EEnum) and not(eStructuralFeature.many)">
+          <widget xsi:type="properties:RadioDescription" identifier="sirius_default_rules_enum" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" helpExpression="" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:eStructuralFeature.eType.getEEnumLiteral(self.eGet(eStructuralFeature).toString())" candidatesExpression="aql:eStructuralFeature.eType.eLiterals" candidateDisplayExpression="aql:candidate.name" numberOfColumns="5">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eSet(eStructuralFeature, newValue.instance)"/>
+            </initialOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:eStructuralFeature.oclIsKindOf(ecore::EReference) and eStructuralFeature.containment and not(eStructuralFeature.many)">
+          <widget xsi:type="ReferenceDescription" identifier="sirius_default_rules_mono_containment_reference" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)" displayExpression="aql:value.eefViewText()">
+            <onClickOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+            </onClickOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:eStructuralFeature.oclIsKindOf(ecore::EReference) and not(eStructuralFeature.containment) and not(eStructuralFeature.many)">
+          <widget xsi:type="properties:SelectDescription" identifier="sirius_default_rules_mono_noncontainment_reference" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)" candidatesExpression="aql:self.eefViewChoiceOfValues(eStructuralFeature)" candidateDisplayExpression="aql:candidate.eefViewText()">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eSet(eStructuralFeature, newValue)"/>
+            </initialOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:eStructuralFeature.oclIsKindOf(ecore::EReference) and eStructuralFeature.containment and eStructuralFeature.many">
+          <widget xsi:type="ReferenceDescription" identifier="sirius_default_rules_multi_containment_reference" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)" displayExpression="aql:value.eefViewText()" multiple="true">
+            <onClickOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+            </onClickOperation>
+          </widget>
+        </ifs>
+        <ifs predicateExpression="aql:eStructuralFeature.oclIsKindOf(ecore::EReference) and not(eStructuralFeature.containment) and eStructuralFeature.many">
+          <widget xsi:type="ReferenceDescription" identifier="sirius_default_rules_multi_noncontainment_reference" labelExpression="aql:self.eefViewText(eStructuralFeature)+':'" isEnabledExpression="aql:eStructuralFeature.changeable" valueExpression="aql:self.eGet(eStructuralFeature)" displayExpression="aql:value.eefViewText()" multiple="true">
+            <onClickOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+            </onClickOperation>
+          </widget>
+        </ifs>
+      </controls>
+      <style barStyle="NO_TITLE" toggleStyle="NONE" expandedByDefault="true"/>
+    </groups>
+  </extensions>
+</description:Group>

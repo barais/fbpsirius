@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated fbpmodel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fbpmodel.presentation.FbpmodelModelWizardID"
+            name="%_UI_FbpmodelModelWizard_label"
+            class="fbpmodel.presentation.FbpmodelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FbpmodelModelFile.gif">
+         <description>%_UI_FbpmodelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated fbpmodel -->
+      <editor
+            id="fbpmodel.presentation.FbpmodelEditorID"
+            name="%_UI_FbpmodelEditor_label"
+            icon="icons/full/obj16/FbpmodelModelFile.gif"
+            extensions="fbpmodel"
+            class="fbpmodel.presentation.FbpmodelEditor"
+            contributorClass="fbpmodel.presentation.FbpmodelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

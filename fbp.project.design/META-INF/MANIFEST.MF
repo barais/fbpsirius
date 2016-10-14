@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fbp.project.design
+Bundle-SymbolicName: fbp.project.design;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: fbp.project.design.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.sirius,
+ org.eclipse.sirius.common.acceleo.aql,
+ fbpmodel;bundle-version="0.1.0",
+ fbpmodel.operationalSemantics
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

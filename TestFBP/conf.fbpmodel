@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbpmodel:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fbpmodel="http://www.example.org/fbpmodel">
+  <instance name="copier">
+    <type href="types.fbpmodel#//@types.1"/>
+  </instance>
+  <instance name="encoder">
+    <type href="types.fbpmodel#//@types.2"/>
+  </instance>
+  <instance name="copier">
+    <type href="types.fbpmodel#//@types.1"/>
+  </instance>
+  <instance name="merger">
+    <type href="types.fbpmodel#//@types.3"/>
+  </instance>
+  <instance name="sequencer">
+    <type href="types.fbpmodel#//@types.0"/>
+    <vars value="">
+      <type href="types.fbpmodel#//@types.0/@vars.0"/>
+    </vars>
+    <vars value="">
+      <type href="types.fbpmodel#//@types.0/@vars.1"/>
+    </vars>
+    <vars value="4">
+      <type href="types.fbpmodel#//@types.0/@vars.2"/>
+    </vars>
+  </instance>
+  <instance name="movie">
+    <type href="types.fbpmodel#//@types.4"/>
+    <vars value="">
+      <type href="types.fbpmodel#//@types.4/@vars.0"/>
+    </vars>
+  </instance>
+  <connection name="c3" componentInstance="//@instance.0 //@instance.1">
+    <inputs href="types.fbpmodel#//@types.2/@inputs.0"/>
+    <outputs href="types.fbpmodel#//@types.1/@outputs.0"/>
+  </connection>
+  <connection name="c4" componentInstance="//@instance.1 //@instance.2">
+    <inputs href="types.fbpmodel#//@types.1/@inputs.0"/>
+    <outputs href="types.fbpmodel#//@types.2/@outputs.0"/>
+  </connection>
+  <connection name="c5" componentInstance="//@instance.2 //@instance.3">
+    <inputs href="types.fbpmodel#//@types.3/@inputs.0"/>
+    <outputs href="types.fbpmodel#//@types.1/@outputs.0"/>
+  </connection>
+  <connection name="c1" componentInstance="//@instance.4">
+    <inputs href="types.fbpmodel#//@types.0/@inputs.0"/>
+  </connection>
+  <connection name="c2" componentInstance="//@instance.4 //@instance.0">
+    <inputs href="types.fbpmodel#//@types.1/@inputs.0"/>
+    <outputs href="types.fbpmodel#//@types.0/@outputs.0"/>
+  </connection>
+  <connection componentInstance="//@instance.5 //@instance.4">
+    <inputs href="types.fbpmodel#//@types.0/@inputs.0"/>
+    <outputs href="types.fbpmodel#//@types.4/@outputs.0"/>
+  </connection>
+</fbpmodel:Configuration>

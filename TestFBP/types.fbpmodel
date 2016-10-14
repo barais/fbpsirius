@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbpmodel:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fbpmodel="http://www.example.org/fbpmodel">
+  <types name="sequencer" description="" dockerImage="spliter" picture="" command="$fileName">
+    <inputs/>
+    <outputs name="out" multiple="true"/>
+    <vars name="path" type="string"/>
+    <vars name="toto" type="string"/>
+    <vars name="nbreWorker" type="string"/>
+  </types>
+  <types name="Copier" dockerImage="copier" command="exec copy" fork="true">
+    <inputs name="in"/>
+    <outputs name="out"/>
+  </types>
+  <types name="encoder" dockerImage="encoder" picture="" command="exec encode" fork="true">
+    <inputs name="in"/>
+    <outputs name="out"/>
+  </types>
+  <types name="merger" dockerImage="merger" picture="" command="exec merge">
+    <inputs name="p1" multiple="true"/>
+  </types>
+  <types name="movie" dockerImage="" picture="/fbp.project.design/image/path2330.png" automaticRun="true">
+    <outputs/>
+    <vars name="fileName" type="string"/>
+  </types>
+</fbpmodel:Library>
