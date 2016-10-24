@@ -46,8 +46,6 @@ public class Services {
 
 	public void run(ComponentInstance cur) {
 		Run r = new Run();
-		System.err.println("pass par la");
-		
 		r.run(cur);
 		
 	}

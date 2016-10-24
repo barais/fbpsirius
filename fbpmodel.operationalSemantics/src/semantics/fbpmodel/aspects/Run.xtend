@@ -15,7 +15,6 @@ import fbpmodel.FbpmodelPackage
 
 class Run {
 	public def run(ComponentInstance instance) {
-		System.err.println("pass par la 1")
 		var conf = instance.eContainer as Configuration
 		conf.run
 
